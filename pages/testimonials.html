@@ -22,6 +22,9 @@
 </head>
 <body>
     <!-- header logo etc. -->
+    <div class="w-mob-logo justify-content-center align-items-center w-100">
+        <a href="#"><img src="../media/cropped-cropped-2022-10-18_111454-e1666689446199.png" alt="" width="200px" height="auto"></a>
+    </div>
     <div class="cheader">
         <div class="cheader-image">
             <img src="../media/logo.jpg" alt="" width="250px" height="auto">
@@ -30,6 +33,11 @@
             <p>"Happiness is a by-product of an effort to make someone else happy."<br>
             Gretta Palmer, Author and Editor</p>
         </div>
+        <ul class="dropdown-ul d-flex justify-content-end align-items-center">
+            <li>
+                <a href="#" style="color: black"><i class="bi bi-list" id="dropdown-button"></i></a>
+            </li>
+        </ul>
     </div>
     <!-- end header logo etc. -->
 
@@ -50,6 +58,15 @@
     <!-- Banner img -->
     <div class="content">
         <div class="banner-testimonials">
+            <ul class="d-flex flex-column justify-content-start align-items-start d-none" id="dropdown-menu">
+                <li><a href="index.html">home</a></li>
+                <li><a href="about_us.html">about us</a></li>
+                <li><a href="our_services.html">our services</a></li>
+                <li><a href="our_experience.html">our experience</a></li>
+                <li><a href="our_clients.html">our clients</a></li>
+                <li><a href="testimonials.html" class="active-btn">testimonials</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
             <!-- background image which fills 60vh of the screen and 100% width -->
             <div class="darker"></div>
         </div>
@@ -145,6 +162,9 @@
             <a href="http://creativthemes.com/" class="text-white">Creativ Themes</a>
         </p>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="../scripts/script.js"></script>
     <!--  -->
 </body>
 </html>
